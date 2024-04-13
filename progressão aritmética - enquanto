@@ -1,0 +1,34 @@
+programa
+//Autor Vitor Manoel TI- manhã
+{
+	
+	funcao inicio()
+	{
+	 
+	inteiro numero,resultado,contador
+	
+	 escreva ("Ente com numero para tabuada :")
+	 
+	 leia (numero)
+	 contador=1
+	 enquanto (contador <10)
+	 {
+	 	resultado =numero * contador
+	 	escreva (numero,"X",contador,"=",resultado,"\n")
+	 	contador=contador ++
+	 	
+	
+	    }
+     }
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 327; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
